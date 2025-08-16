@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajnish Jena - Portfolio</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  </head>
+
+  <body oncontextmenu="return false">
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Rajnish</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main">
+      <!-- ================= HOME SECTION ================= -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <!-- Social Links -->
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/rajnish-jena" target="_blank" class="home__social-icon" aria-label="LinkedIn">
+                <i class="uil uil-linkedin-alt home__icon"></i>
+              </a>
+              <a href="https://github.com/tulsirampathe/Farmer-Platform" target="_blank" class="home__social-icon" aria-label="GitHub">
+                <i class="uil uil-github-alt home__icon"></i>
+              </a>
+            </div>
+
+            <!-- Profile Image or Lottie -->
+            <div class="home__img">
+              <dotlottie-player
+                src="https://lottie.host/2f6a8150-d3d6-4c1e-8069-6a972d91ed36/AhTRod73kt.lottie"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 300px"
+                loop
+                autoplay
+              ></dotlottie-player>
+            </div>
+
+            <!-- Personal Info -->
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Rajnish Jena</h1>
+              <h3 class="home__subtitle">B.Tech — Computer Science & Engineering (SISTec-E)</h3>
+              <p class="home__description">
+                Fervent CSE undergraduate with a strong foundation in programming, web development, and problem‑solving. Quick learner and team player, eager to contribute to innovative projects.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT SECTION ================= -->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets/img/profile.jpeg" alt="Rajnish Jena" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              I'm a Computer Science undergrad at <strong>SISTec-E</strong> with hands‑on experience in building web apps and solving algorithmic problems. Proficient in C++, Python, Java, and core CS subjects (DSA, OOP, DBMS). I enjoy collaborating in teams and learning fast to ship useful software.
+            </p>
+
+            <!-- Stats -->
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">6.93</span>
+                <span class="about__info-name">Current<br />CGPA</span>
+              </div>
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name">Completed<br />Projects</span>
+              </div>
+              <div>
+                <span class="about__info-title">03</span>
+                <span class="about__info-name">Certifications<br />Earned</span>
+              </div>
+            </div>
+
+            <!-- Download Resume Button -->
+            <div class="about__buttons">
+              <a download href="assets/DELTAC.pdf" class="button button--flex">
+                Download Resume<i class="uil uil-import button__icon" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS SECTION ================= -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">Technical capabilities</span>
+
+        <div class="skills__container container grid">
+          <!-- Programming Languages -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-code-branch skills__icon"></i>
+              <h1 class="skills__title">Programming</h1>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data"><h3 class="skills__name">C++</h3></div>
+              <div class="skills__data"><h3 class="skills__name">Java</h3></div>
+              
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-window skills__icon"></i>
+              <h1 class="skills__title">Web Tech</h1>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data"><h3 class="skills__name">HTML</h3></div>
+              <div class="skills__data"><h3 class="skills__name">CSS</h3></div>
+              <div class="skills__data"><h3 class="skills__name">JavaScript</h3></div>
+              <div class="skills__data"><h3 class="skills__name">Node.js</h3></div>
+              <div class="skills__data"><h3 class="skills__name">MySQL</h3></div>
+            </div>
+          </div>
+
+          <!-- Core Concepts -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-database skills__icon"></i>
+              <h1 class="skills__title">Fundamentals</h1>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data"><h3 class="skills__name">DSA</h3></div>
+              <div class="skills__data"><h3 class="skills__name">OOP</h3></div>
+              <div class="skills__data"><h3 class="skills__name">DBMS</h3></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EDUCATION SECTION ================= -->
+      <section class="qualification__section" id="qualification">
+        <h2 class="section__title">Education</h2>
+        <span class="section__subtitle">Academic journey</span>
+
+        <div class="qualification__container container grid">
+          <div class="qualification__content qualifiation__active">
+            <!-- BTech -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">B.Tech (CSE)</h3>
+                <span class="qualification__subtitle">
+                  Sagar Group of Institutions — SISTec-E<br />
+                  CGPA: 6.93 (2022 – 2026)
+                </span>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!-- 12th -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Class XII (Science)</h3>
+                <span class="qualification__subtitle">
+                  Golden Bright Hr. Sec. School, Ichhawar — MPBSE<br />
+                  90% (2020)
+                </span>
+              </div>
+            </div>
+
+            <!-- 10th -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Class X</h3>
+                <span class="qualification__subtitle">
+                  Shastri Smriti V M H School, Sehore — MPBSE<br />
+                  89% (2019)
+                </span>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS SECTION ================= -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">My recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Project 1 - Farmer Platform -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/project1.jpeg" alt="Farmer Platform" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Farmer Platform</h3>
+                <p class="portfolio__description">
+                  A web platform enabling farmers to sell crops directly to consumers by removing mediators. Built with HTML, CSS, Node.js, and MySQL. Team size: 4 (Jan 2025 – Apr 2025).
+                </p>
+                <div class="portfolio__buttons">
+                  <a href="https://github.com/tulsirampathe/Farmer-Platform" target="_blank" class="button button--flex button--small">
+                    <i class="uil uil-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 - Think Ahead (E‑Learning) -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/project2.jpeg" alt="Think Ahead E‑Learning" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Think Ahead — E‑Learning Platform</h3>
+                <p class="portfolio__description">
+                  Online learning platform for live/video classes enabling student‑teacher interaction. Tech: HTML, CSS, Node.js, JavaScript. Team size: 4 (Aug 2024 – Sep 2024).
+                </p>
+                <div class="portfolio__buttons">
+                  <a href="https://github.com/Parya100/E-learning-" target="_blank" class="button button--flex button--small">
+                    <i class="uil uil-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Swiper Controls -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CERTIFICATIONS & TRAINING ================= -->
+      <section class="skills section" id="certs">
+        <h2 class="section__title">Certifications & Training</h2>
+        <span class="section__subtitle">What I've learned</span>
+        <div class="skills__container container grid">
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-award-alt skills__icon"></i>
+              <h1 class="skills__title">Cisco Networking Academy</h1>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data"><h3 class="skills__name">Python Essentials I</h3></div>
+              <div class="skills__data"><h3 class="skills__name">Python Essentials II</h3></div>
+              <div class="skills__data"><h3 class="skills__name">Introduction to Cybersecurity</h3></div>
+            </div>
+          </div>
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-presentation-play skills__icon"></i>
+              <h1 class="skills__title">Workshops</h1>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data"><h3 class="skills__name">Web Development training by ISTE at MANIT (Aug 17–18, 2024)</h3></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT SECTION ================= -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <!-- Contact Info -->
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+91 97533 51145</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">rudrarajput51145@gmail.com</span>
+                <br/>
+                <span class="contact__subtitle">rajnishjena41@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Sehore, Madhya Pradesh, India — 466001</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-linkedin contact__icon"></i>
+              <div>
+                <h3 class="contact__title">LinkedIn</h3>
+                <a class="contact__subtitle" href="https://www.linkedin.com/in/rajnish-jena" target="_blank">linkedin.com/in/rajnish-jena</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form (optional) -->
+          <form action="#" class="contact__form grid">
+            <!-- You can wire this up later to a backend or form service -->
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="name" class="contact__label">Name</label>
+                <input id="name" type="text" class="contact__input" placeholder="Your name" />
+              </div>
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email</label>
+                <input id="email" type="email" class="contact__input" placeholder="Your email" />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="project" class="contact__label">Project</label>
+              <input id="project" type="text" class="contact__input" placeholder="What are you looking to build?" />
+            </div>
+            <div class="contact__content">
+              <label for="message" class="contact__label">Message</label>
+              <textarea id="message" cols="0" rows="7" class="contact__input" placeholder="Write your message"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="button button--flex">
+                Send Message<i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Rajnish Jena</h1>
+            <span class="footer__subtitle">Computer Science & Engineering</span>
+          </div>
+
+          <!-- Footer Links -->
+          <ul class="footer__links">
+            <li><a href="#qualification" class="footer__link">Education</a></li>
+            <li><a href="#portfolio" class="footer__link">Projects</a></li>
+            <li><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+
+          <!-- Social Links -->
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/rajnish-jena" class="footer__social" target="_blank" aria-label="LinkedIn">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://github.com/tulsirampathe/Farmer-Platform" class="footer__social" target="_blank" aria-label="GitHub">
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">© 2025 Rajnish Jena. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ================= SCRIPTS ================= -->
+    <script src="assets/swiper-bundle.min.js"></script>
+    <script src="assets/ptj.js"></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+  </body>
+</html>
